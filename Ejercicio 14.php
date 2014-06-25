@@ -22,15 +22,15 @@
             for ($i = 1; $i<=$z; $i++)
             {
                 if ($i % 2 == 0){
-                    echo $y.$x.'<br>' ;
+                    $aux = $y.$x.'<br>' ;
                     $y++;
                     $x++;
                   
                 }
                 else {
-                    echo $x.$y.'<br>' ;
+                    $aux = $x.$y.'<br>' ;
                 } 
-            }
+            }		return $aux;
         }
     }  echo serie (5, 3, 3);
     
